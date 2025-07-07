@@ -1,1 +1,35 @@
-Hello louwell
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Louwell Training</title>
+    <style>
+      .my-class {
+        background-color: #f5e342;
+      }
+      #myFirstParagraph {
+        font-weight: bold;
+      }
+    </style>
+  </header>
+  <body>
+    Create a resume:
+    - Name
+    - Position
+    - Experience
+    - Skills
+    - Education
+    - Seminars/Trainings
+    <p id="myFirstParagraph" class="my-class" onclick=pangalanNgFunction()>This is a sample.</p>
+    <p class="my-class">asd.</p>
+    
+    <script>
+      let x = document.getElementById('myFirstParagraph');
+      function changeColor(){
+        x.style.backgroundColor = 'red';
+      };
+      function pangalanNgFunction(){
+        x.style.backgroundColor = 'blue';
+      }
+    </script>
+  </body>
+</html>
