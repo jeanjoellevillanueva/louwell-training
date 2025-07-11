@@ -1,36 +1,36 @@
-x = 'b'
-y = 'cd'
-print(x + y)
+# x = 'b'
+# y = 'cd'
+# print(x + y)
 
 
-fruit_list = ['apple', 'pineapple','banana']
-# add: append
-# remove: pop
+# fruit_list = ['apple', 'pineapple','banana']
+# # add: append
+# # remove: pop
 
-# fruit_list.append('mango')
-# fruit_list.pop()
-# fruit_list.pop()
+# # fruit_list.append('mango')
+# # fruit_list.pop()
+# # fruit_list.pop()
 
-person_dict = {'name': 'Louwell', 'age': 23}
+# person_dict = {'name': 'Louwell', 'age': 23}
 
-print(person_dict.get('gender', 'male'))
+# print(person_dict.get('gender', 'male'))
 
-# Function
-def sum(x, y):
-    print(x + y)
+# # Function
+# def sum(x, y):
+#     print(x + y)
 
-def multiply(z, r):
-    print(z * r)
+# def multiply(z, r):
+#     print(z * r)
 
-sum_numbers = sum(1, 5)
-sum2_numbers = sum(3, 4)
+# sum_numbers = sum(1, 5)
+# sum2_numbers = sum(3, 4)
 
-diff_numbers = multiply(3, 1)
+# diff_numbers = multiply(3, 1)
 
-print(sum_numbers)
-print(sum2_numbers)
+# print(sum_numbers)
+# print(sum2_numbers)
 
-print(diff_numbers)
+# print(diff_numbers)
 
 """
 Assignment:
