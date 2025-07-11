@@ -44,3 +44,11 @@ eg. asd = {'name': 'Joelle','age': 29,} -> Ans: 29
 3. Function remove 2 items sa list:
 eg. lists = ['1', '2', 'apple', 'banana'] -> Ans: ['1', '2']
 """
+from assignment import sum_and_subtract_the_last_number
+
+sum_and_subtract_the_last_number(5, 6, 9, 9)
+sum_and_subtract_the_last_number(1, 2, 9, 9)
+sum_and_subtract_the_last_number(3, 4, 9, 9)
+sum_and_subtract_the_last_number(5, 6, 9, 9)
+sum_and_subtract_the_last_number(7, 8, 9, 9)
+sum_and_subtract_the_last_number(9, 10, 9, 9)
