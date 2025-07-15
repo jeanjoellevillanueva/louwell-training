@@ -18,16 +18,13 @@ backpay = number_years * salary per month
 """
 
 """ 1 """
-def divisible (number, divisor):
+def divisible(number, divisor):
     """ Check if the number is divisible by even number """
 
-number = int(input('Put number here:'))
-divisor = int(input ('Put divisor here:'))
-
-if number % divisor == 0:
-    print ("ping")
-else:
-    print ("pong")
+    if number % divisor == 0:
+        print ("ping")
+    else:
+        print ("pong")
 
 
 """ 2 """
@@ -41,27 +38,31 @@ places_that_starts_with_p_and_m = [
 def places_that_start_with_letter_m(places):
     for place in places:
         if place.startswith('M'):
-            print (place)
+            print(place)
 
-places_that_start_with_letter_m(places_that_starts_with_p_and_m)
 
-""" 3 
+# """ 3 """
 
-#dict
+# #dict
 
-def backpay (number_of_stay, salary):
+def backpay(number_of_stay, salary):
+
+    employee_details= {
+        'number_of_stay': number_of_stay ,
+        'salary': salary 
+    }
+
+    print(employee_details['number_of_stay'] * employee_details['salary'])
+
+
+if __name__ == '__main__':
+    number = int(input('Put number here:'))
+    divisor = int(input ('Put divisor here:'))
+    divisible(number, divisor)
+    places_that_start_with_letter_m(places_that_starts_with_p_and_m)    
     number_of_stay = int(input('Put number_of_stay here'))
     salary = int(input('Put salary here'))
-
-employee_details {
-    'number_of_stay': ,
-    'salary': 
-}
-
-for key, value in employee_details.items():
-    print ('From for loop', value)"""
-
-
+    backpay(number_of_stay,salary)
 
 
 
