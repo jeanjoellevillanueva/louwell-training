@@ -12,7 +12,7 @@ def remove_last(list_of_place):
     """
     Remove the last on the list.
     """
-    sliced_list = list_of_place[:-2]
+    sliced_list = list_of_place[:2]
     print('From function: ', sliced_list)
     return sliced_list
 
